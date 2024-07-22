@@ -7,7 +7,7 @@
     "gpt-subb": "dist/index.js"
   },
   "scripts": {
-    "dev": "ts-node src/index.ts",
+    "dev": "ts-node src/index.ts -k sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxaditW24lfEZ -l zh-cn  -m gpt-4o -b 30  'demo1.srt'  'demo2.srt' ",
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
